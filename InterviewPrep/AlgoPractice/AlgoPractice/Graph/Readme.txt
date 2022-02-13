@@ -79,3 +79,28 @@ Cons of using Adj
 ⌨️ (6:25:04) Dinic's Algorithm | Network Flow
 ⌨️ (6:36:09) Dinic's Algorithm | Network Flow | Source Code
 
+----------------------------------------------------------------------------------------
+
+Top Sort
+- School class schedule
+- Program Dependencies
+- Event Scheduling
+- Assembly instructions
+
+The main thing is thing are dependent this time we should use top sort.
+Example is if you enroll a class in you have to take a order of classes. if this type of class schedule occur then
+top sort algo will not give the answer.
+
+Another example is Programable Dependency
+   a. if a program a is depend on dependancy x
+   b x is dependent on y and y is dependant on z
+then in order to execute the program a you need to have z --> y --> x --> a to satisfy this
+A topsort algo is and ordering of a node in a directed graph where each directed edge from node
+A to node B , node A appears before node B in the ordering
+
+The Complexity is O(V + E)
+it has to be a directed Graph. 
+
+
+
+
